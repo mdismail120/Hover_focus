@@ -1,0 +1,44 @@
+h1:hover {
+  color: aqua;
+  background-color: aliceblue;
+  padding: 20px;
+  margin: 20px;
+  width: 200px;
+  font-size: 40px;
+}
+
+.last-one:focus {
+  color: blue;
+  font-weight: 500px;
+  font-size: 15px;
+}
+a:visited {
+  color: red;
+}
+/* li {
+  color: chocolate;
+} */
+li:first-child {
+  color: red;
+}
+li:last-child {
+  color: blue;
+}
+
+li:nth-child(2n) {
+  color: blue;
+}
+li:nth-child(2n + 1) {
+  background-color: crimson;
+}
+
+/* Before and after  */
+
+h3::before {
+  content: "hello";
+}
+
+h3::after {
+  content: "hi-bye-pye";
+  background-color: crimson;
+}
